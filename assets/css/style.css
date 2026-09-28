@@ -4,16 +4,37 @@
  box-sizing: border-box;
 }
 
-
 body{
-	margin: 50px;
+	margin: 35px;
     font-family: sans-serif;
     color: rosybrown;
     background-color: oldlace;
 }
 
 a {
-	color: sandybrown;
+	color: forestgreen;
+}
+
+img{
+	width: 300px;
+	display: block;
+	margin-bottom: 20px;
+
+}
+
+.curi {
+	width: 400px;
+	display: inline;
+	margin-inline: 20px;
+	margin-left: 3px;
+}
+
+.arena-gallery {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 @media screen and (max-width: 704px) {
